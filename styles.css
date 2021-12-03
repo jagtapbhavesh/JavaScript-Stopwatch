@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Suravaram&display=swap');
+
+:root {
+    --primary-color: #34D399;
+    --gray-color: #F3F4F6;
+    --button-red: #F87171;
+    --button-yellow: #FDE68A;
+    --button-blue: #A78BFA ;
+}
+
+body {
+    font-family: 'Suravaram', serif;
+    background-color: var(--gray-color);
+}
+
+nav {
+    text-align: center;
+    background-color: var(--primary-color);
+    max-width: 600px;
+    padding: 0rem 1rem;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+p{
+    text-align: center;
+    font-size: xx-large;
+}
+
+div{
+    text-align: center;
+}
+
+button {
+    font-family: 'Suravaram', serif;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 1rem;
+    margin: 0.8rem;
+    font-size: large;
+    font-weight: 200;
+}
+
+#button-start{
+    background-color: var(--button-yellow);
+}
+
+#button-stop{
+    background-color:var(--button-red);
+}
+
+#button-reset{
+    background-color:var(--button-blue);
+}
